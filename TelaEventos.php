@@ -16,13 +16,13 @@ echo $_SESSION['email']
         <fieldset>
         <legend>Cadastrar Eventos</legend>
         <label>Tipo de evento: </label>
-        <input type="text" name="tipo" placeholder="Casamento,Aniversário,Reuniões"><br>
+        <input type="text" name="tipo" placeholder="Casamento,Aniversário,Reuniões" required="required"><br>
         <label></label><br>
         <label>Número de convidados: </label>
-        <input type="text" name="convidados" placeholder="No mínimo 2 convidados"><br>
+        <input type="text" name="convidados" placeholder="No mínimo 2 convidados" required="required"><br>
         <label></label><br>
         <label>Tipo de comida: </label>
-        <input type="text" name="comida" placeholder="No mínimo 1 tipo de comida"><br>
+        <input type="text" name="comida" placeholder="No mínimo 1 tipo de comida" required="required"><br>
         <label></label><br>
         <label>Quantidade de funcionários: </label>
         <input type="text" name="funcionarios" placeholder="Não é obrigatório"><br>
@@ -37,10 +37,10 @@ echo $_SESSION['email']
         <input type="text" name="traje" placeholder="Não é obrigatório"><br>
         <label></label><br>
         <label>Horário de início e fim do evento: </label>
-        <input type="text" name="horario" placeholder="00:00 até 00:00"><br>
+        <input type="text" name="horario" placeholder="00:00 até 00:00" required="required"><br>
         <label></label><br>
         <label>Local do evento: </label>
-        <input type="text" name="lugar" placeholder="Informe seu local de evento"><br>
+        <input type="text" name="lugar" placeholder="Informe seu local de evento" required="required"><br>
         <label></label><br>
         <input class="botao" type="submit" value="Cadastrar Evento">
         </fieldset>
